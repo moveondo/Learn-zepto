@@ -3,7 +3,7 @@ zepto源码解读
 
 ! [这里随便填写 ] ("https//m.ppdaicdn.com/act/ccdl/img/banner.png");
 
-![image](https://github.com/panacena/mengqu/blob/master/readme/Screenshot_2016-07-10-22-17- 15_zkk.com.mengqu.png)
+![image](https://github.com/moveondo/Learn-zepto/blob/master/images/1.png)
 
 
 第一部分 2-38 ：立即执行函数 兼容部分内核bug
