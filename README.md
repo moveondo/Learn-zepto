@@ -1,5 +1,7 @@
 zepto源码解读
 学习笔记
+! [这里随便填写 ] (//m.ppdaicdn.com/act/ccdl/img/banner.png);
+
 
 第一部分 2-38 ：立即执行函数 兼容部分内核bug
 
