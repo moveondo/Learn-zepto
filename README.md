@@ -1,11 +1,6 @@
 zepto源码解读
 学习笔记
 
-! [这里随便填写 ] ("https//m.ppdaicdn.com/act/ccdl/img/banner.png");
-
-![image](https://github.com/moveondo/Learn-zepto/blob/master/images/1.png)
-
-
 第一部分 2-38 ：立即执行函数 兼容部分内核bug
 
 javascript立即执行函数有两张写法：
@@ -18,7 +13,7 @@ javascript立即执行函数有两张写法：
 zepto为了实现对模块化js，(只认识名词)，初始传入两个参数，并且第二个传入的参数是一个函数，
 
 (function(形参1, 形参2){...}(实际传入参数1, function(){...}));
-
+![image](https://github.com/moveondo/Learn-zepto/blob/master/images/1.png)
  
 前面的;是为了压缩时的冲突
 
