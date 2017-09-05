@@ -18,9 +18,11 @@ zepto为了实现对模块化js，(只认识名词)，初始传入两个参数�
 前面的;是为了压缩时的冲突
 
 Zepto.js开始时一个立即执行函数，为了兼容一些浏览器bug，主要是trim和reduce
+![image](https://github.com/moveondo/Learn-zepto/blob/master/images/2.png)
 
  
 修复了IOS3.2的trim函数；以空格开始或者以空格结束时的全局替换
+![image](https://github.com/moveondo/Learn-zepto/blob/master/images/3.png)
 
 可见zepto.js中把undefined封装成void 0 了
  
@@ -32,15 +34,19 @@ len = t.length >>> 0,表示
 
 定义主体函数Zepto，依然是立即执行的函数，通过函数内部返回一个实际函数。 
 
-然后将该Zepto函数赋值给全局的Zepto，即window.Zepto  
+然后将该Zepto函数赋值给全局的Zepto，即window.Zepto
+![image](https://github.com/moveondo/Learn-zepto/blob/master/images/4.png)
   
 细分：
+![image](https://github.com/moveondo/Learn-zepto/blob/master/images/5.png)
  
 定义写变量 及常用函数赋值（slice，filter） 
+![image](https://github.com/moveondo/Learn-zepto/blob/master/images/6.png)
 
  定义一些正则表达式如ID，class选择器的正则；匹配非单独一个闭合标签的标签，类似将<div></div>写成了<div/>等 
  
 96-250：定义函数属性matches，函数type，isFunction，isWindow，isDocument，isObject，isArray，likeArray，compact，flatten，camelize，dasherize，uniq，classRE，maybeAddPx，defaultDisplay，children，fragment 
+![image](https://github.com/moveondo/Learn-zepto/blob/master/images/7.png)
  
 在Zepto封装的即时执行函数内部定义了一个函数名为Z的构造函数 
 
