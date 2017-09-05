@@ -125,11 +125,11 @@ before   => insertBefore；append   => appendTo
 zepto下的函数赋值$.zepto也可以访问
 $.fn与zepto.Z.prototype指向的是同一空间，这里达到了是扩展原型链的效果
 
-![image](https://github.com/moveondo/Learn-zepto/blob/master/images/13.png)
-
  第三部分：
  
 1074-1123：对Zepto继续进行扩展，主要是判断浏览器和手机内核
+
+![image](https://github.com/moveondo/Learn-zepto/blob/master/images/13.png)
 
 第四部分：
 
