@@ -131,14 +131,16 @@ $.fn与zepto.Z.prototype指向的是同一空间，这里达到了是扩展原�
 
 ![image](https://github.com/moveondo/Learn-zepto/blob/master/images/13.png)
 
-第四部分：
+第四部分1129-1456：事件处理;
 
-接下来是事件处理;
-1129-1456: 事实上他还是调用的$.bind实现事件绑定，换个思维方式，其实整个zepto事件实现可以浓缩成这么几句话：
+事实上他还是调用的$.bind实现事件绑定，换个思维方式，其实整个zepto事件实现可以浓缩成这么几句话：
+
 var eventSet = {
     el: {fnType: []}
 };
+
 function on(type, fn) {}
+
 function off(type, fn) {}
 
 第五部分：
