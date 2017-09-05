@@ -53,6 +53,7 @@ len = t.length >>> 0,表示
 这样$.fn上的方法就会被dom所继承 
 
 将内部构造函数Z实例化，作为变量zepto的属性 
+![image](https://github.com/moveondo/Learn-zepto/blob/master/images/8.png)
  
 在初始化的方法中返回实例化之后的zepto.Z对象
 
@@ -75,6 +76,8 @@ len = t.length >>> 0,表示
 9：如果selector是css选择字符串且context无值
 
 10：调用zepto.Z，生产zepto对象
+
+![image](https://github.com/moveondo/Learn-zepto/blob/master/images/11.png)
  
 zepto初始化之后的对象赋值给$
 325-478  之后定义$上的一些函数：$.extend，qsa，filtered，funcArg，className，deserializeValue，isEmptyObject，inArray，trim，map，each，grep
@@ -82,16 +85,22 @@ zepto初始化之后的对象赋值给$
 992：$.fn.detach = $.fn.remove 赋值操作
 996-1012：宽 高的取值
 1021-1050：adjacencyOperators遍历
+
+![image](https://github.com/moveondo/Learn-zepto/blob/master/images/12.png)
+
  after    => insertAfter；prepend  => prependTo；
 before   => insertBefore；append   => appendTo
- 
+ ![image](https://github.com/moveondo/Learn-zepto/blob/master/images/13.png)
 after    => insertAfter；prepend  => prependTo；
 before   => insertBefore；append   => appendTo
+  
+ ![image](https://github.com/moveondo/Learn-zepto/blob/master/images/14.png)
  
 把$.fn赋值给Z的原型，这样$.fn下面的函数Z也可以访问了
 zepto下的函数赋值$.zepto也可以访问
 $.fn与zepto.Z.prototype指向的是同一空间，这里达到了是扩展原型链的效果
 
+![image](https://github.com/moveondo/Learn-zepto/blob/master/images/15.png)
  第三部分：
  
 1074-1123：对Zepto继续进行扩展，主要是判断浏览器和手机内核
