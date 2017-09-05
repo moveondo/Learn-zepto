@@ -45,7 +45,8 @@ len = t.length >>> 0,表示
 
  定义一些正则表达式如ID，class选择器的正则；匹配非单独一个闭合标签的标签，类似将<div></div>写成了<div/>等 
  
-96-250：定义函数属性matches，函数type，isFunction，isWindow，isDocument，isObject，isArray，likeArray，compact，flatten，camelize，dasherize，uniq，classRE，maybeAddPx，defaultDisplay，children，fragment 
+96-250：定义函数属性matches，函数type，isFunction，isWindow，isDocument，isObject，isArray，likeArray，compact，flatten，camelize，dasherize，uniq，classRE，maybeAddPx，defaultDisplay，children，fragment
+
 ![image](https://github.com/moveondo/Learn-zepto/blob/master/images/7.png)
  
 在Zepto封装的即时执行函数内部定义了一个函数名为Z的构造函数 
@@ -53,6 +54,7 @@ len = t.length >>> 0,表示
 这样$.fn上的方法就会被dom所继承 
 
 将内部构造函数Z实例化，作为变量zepto的属性 
+
 ![image](https://github.com/moveondo/Learn-zepto/blob/master/images/8.png)
  
 在初始化的方法中返回实例化之后的zepto.Z对象
@@ -80,6 +82,7 @@ len = t.length >>> 0,表示
 ![image](https://github.com/moveondo/Learn-zepto/blob/master/images/11.png)
  
 zepto初始化之后的对象赋值给$
+
 325-478  之后定义$上的一些函数：$.extend，qsa，filtered，funcArg，className，deserializeValue，isEmptyObject，inArray，trim，map，each，grep
 485-989 ：$.fn主要是针对DOM操作
 992：$.fn.detach = $.fn.remove 赋值操作
@@ -90,7 +93,9 @@ zepto初始化之后的对象赋值给$
 
  after    => insertAfter；prepend  => prependTo；
 before   => insertBefore；append   => appendTo
+
  ![image](https://github.com/moveondo/Learn-zepto/blob/master/images/13.png)
+ 
 after    => insertAfter；prepend  => prependTo；
 before   => insertBefore；append   => appendTo
   
@@ -101,6 +106,7 @@ zepto下的函数赋值$.zepto也可以访问
 $.fn与zepto.Z.prototype指向的是同一空间，这里达到了是扩展原型链的效果
 
 ![image](https://github.com/moveondo/Learn-zepto/blob/master/images/15.png)
+
  第三部分：
  
 1074-1123：对Zepto继续进行扩展，主要是判断浏览器和手机内核
