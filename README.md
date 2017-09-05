@@ -84,28 +84,28 @@ len = t.length >>> 0,表示
 zepto初始化之后的对象赋值给$
 
 325-478  之后定义$上的一些函数：$.extend，qsa，filtered，funcArg，className，deserializeValue，isEmptyObject，inArray，trim，map，each，grep
+
 485-989 ：$.fn主要是针对DOM操作
+
 992：$.fn.detach = $.fn.remove 赋值操作
+
 996-1012：宽 高的取值
+
 1021-1050：adjacencyOperators遍历
 
 ![image](https://github.com/moveondo/Learn-zepto/blob/master/images/12.png)
 
  after    => insertAfter；prepend  => prependTo；
 before   => insertBefore；append   => appendTo
-
- ![image](https://github.com/moveondo/Learn-zepto/blob/master/images/13.png)
- 
 after    => insertAfter；prepend  => prependTo；
 before   => insertBefore；append   => appendTo
   
- ![image](https://github.com/moveondo/Learn-zepto/blob/master/images/14.png)
  
 把$.fn赋值给Z的原型，这样$.fn下面的函数Z也可以访问了
 zepto下的函数赋值$.zepto也可以访问
 $.fn与zepto.Z.prototype指向的是同一空间，这里达到了是扩展原型链的效果
 
-![image](https://github.com/moveondo/Learn-zepto/blob/master/images/15.png)
+![image](https://github.com/moveondo/Learn-zepto/blob/master/images/13.png)
 
  第三部分：
  
