@@ -43,7 +43,7 @@ len = t.length >>> 0,表示
 定义写变量 及常用函数赋值（slice，filter） 
 ![image](https://github.com/moveondo/Learn-zepto/blob/master/images/6.png)
 
- 定义一些正则表达式如ID，class选择器的正则；匹配非单独一个闭合标签的标签，类似将<div></div>写成了<div/>等 
+ 定义一些正则表达式如ID，class选择器的正则；匹配非单独一个闭合标签的标签，类似将div标签不合并 等 
  
 96-250：定义函数属性matches，函数type，isFunction，isWindow，isDocument，isObject，isArray，likeArray，compact，flatten，camelize，dasherize，uniq，classRE，maybeAddPx，defaultDisplay，children，fragment
 
